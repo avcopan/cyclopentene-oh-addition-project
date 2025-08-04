@@ -1741,7 +1741,7 @@ packages:
 - pypi: ./
   name: cyclopentene-oh-addition-project
   version: 0.1.0
-  sha256: 7475295850d9a43791a7416bae994d2b87230d6b0f89f17f62b9541e6bbc2592
+  sha256: f277aaa66989f13d3b500df68f8d5395acac84422a4c74d3c338a30d6dd15073
   requires_python: '>=3.11'
   editable: true
 - conda: https://conda.anaconda.org/conda-forge/linux-64/cyrus-sasl-2.1.28-hd9c7081_0.conda

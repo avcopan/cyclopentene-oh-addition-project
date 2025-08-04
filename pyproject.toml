@@ -22,6 +22,8 @@ cyclopentene_oh_addition_project = { path = ".", editable = true }
 autochem = { path = "src/_autochem", editable = true }
 
 [tool.pixi.tasks]
+extract = "./scripts/extract.sh"
+vis = "./scripts/vis.sh"
 
 [tool.pixi.dependencies]
 python = "3.11.*"
