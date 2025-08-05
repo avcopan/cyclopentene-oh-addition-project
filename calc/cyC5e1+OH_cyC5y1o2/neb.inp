@@ -1,0 +1,9 @@
+! wB97X-3c
+! NEB-TS
+! FREQ
+
+%NEB 
+ NEB_END_XYZFILE "product.xyz" 
+END
+
+* xyzfile 0 2 reactant.xyz

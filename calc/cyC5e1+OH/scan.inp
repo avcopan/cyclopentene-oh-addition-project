@@ -1,0 +1,7 @@
+! wB97X-3c
+! OPT
+%geom Scan
+    B 4 13 = 3.30, 4.40, 12
+    end
+end
+* xyzfile 0 2 opt.xyz
