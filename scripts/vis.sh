@@ -10,6 +10,10 @@ from pathlib import Path
 
 import automol
 
-geo = automol.geom.from_xyz_string(Path("${ARG}").read_text())
-automol.geom.display(geo)
+geo_file = Path("${ARG}")
+geos, comments = zip(
+    *automol.geom.from_xyz_trajectory_string(geo_file.read_text()),
+    strict=True,
+)
+automol.geom.display_trajectory(geos)
 EOF
