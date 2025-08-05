@@ -23,6 +23,8 @@ autochem = { path = "src/_autochem", editable = true }
 
 [tool.pixi.tasks]
 extract = "./scripts/extract.sh"
+
+[tool.pixi.feature.dev.tasks]
 vis = "./scripts/vis.sh"
 
 [tool.pixi.dependencies]
@@ -46,6 +48,7 @@ rdkit = "*"
 
 [tool.pixi.feature.dev.dependencies]
 gh = "*"
+jupytext = ">=1.17.2,<2"
 
 [tool.pixi.environments]
 test = ["test"]

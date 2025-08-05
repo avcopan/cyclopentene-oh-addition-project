@@ -17,3 +17,6 @@ geos, comments = zip(
 )
 automol.geom.display_trajectory(geos)
 EOF
+
+jupytext --to ipynb vis.py
+rm vis.py
