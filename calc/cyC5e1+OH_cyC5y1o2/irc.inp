@@ -1,0 +1,10 @@
+! PAL8
+! wB97X-3c
+! FREQ
+! IRC
+
+%IRC
+ MAXITER 30
+END
+
+* xyzfile 0 2 neb_NEB-TS_converged.xyz
