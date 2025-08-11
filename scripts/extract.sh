@@ -4,6 +4,7 @@ WD=${INIT_CWD:-$(pwd)}
 DIR=${1}
 
 cd ${WD}
+cp ${DIR}/*.sh  .
 cp ${DIR}/*.inp .
 cp ${DIR}/*.xyz .
 cp ${DIR}/*.log .
