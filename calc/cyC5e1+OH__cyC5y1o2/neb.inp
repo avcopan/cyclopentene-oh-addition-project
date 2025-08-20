@@ -1,0 +1,11 @@
+% MaxCore 10000
+! PAL8
+! REVDSD-PBEP86-D4/2021 def2-TZVPP def2-TZVPP/c
+! TIGHT-NEB-TS
+! NumFreq
+
+%NEB 
+ NEB_END_XYZFILE "product.xyz" 
+END
+
+* xyzfile 0 2 reactant.xyz

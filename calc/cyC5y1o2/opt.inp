@@ -1,3 +1,5 @@
-! wB97X-3c
+% MaxCore 10000
+! PAL8
+! REVDSD-PBEP86-D4/2021 def2-TZVPP def2-TZVPP/c
 ! OPT
 * xyzfile 0 2 guess.xyz
