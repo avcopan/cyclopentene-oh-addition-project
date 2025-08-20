@@ -6,6 +6,6 @@
    Convergence    VeryTight
 end
 %geom
-   MaxIter        100
+   MaxIter        500
 end
 * xyzfile 0 2 path_init_forw.xyz
