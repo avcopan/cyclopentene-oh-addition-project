@@ -45,6 +45,7 @@ pyparsing = "*"
 pyyaml = "*"
 qcelemental = "*"
 rdkit = "*"
+polars = ">=1.33.0,<2"
 
 [tool.pixi.feature.dev.dependencies]
 gh = "*"
