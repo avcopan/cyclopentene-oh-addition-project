@@ -1,0 +1,18 @@
+% MaxCore 10000
+! PAL8
+! REVDSD-PBEP86-D4/2021 def2-TZVPP def2-TZVPP/c
+! Tight-NEB-TS
+! NumFreq
+
+%neb
+    neb_end_xyzfile "RH+OH-c2.xyz" 
+end
+%scf
+   Convergence    VeryTight
+end
+%geom
+   MaxIter        500
+   Convergence    Tight
+end
+
+* xyzfile 0 2 RH+OH-c1.xyz
